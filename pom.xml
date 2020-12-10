@@ -66,9 +66,14 @@
                                 </excludes>
                                 <limits>
                                     <limit>
-                                        <counter>LINE</counter>
+                                        <counter>BRANCH</counter>
                                         <value>COVEREDRATIO</value>
-                                        <minimum>100</minimum>
+                                        <minimum>80</minimum>
+                                    </limit>
+                                    <limit>
+                                        <counter>BRANCH</counter>
+                                        <value>COVEREDRATIO</value>
+                                        <maximum>100</maximum>
                                     </limit>
                                 </limits>
                             </rule>
